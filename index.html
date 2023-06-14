@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="index.js" defer></script>
+</head>
+<body>
+  <main>
+    <h2 class="logo">TIC TAC TOE</h2>
+    <div id="nomeJogadores" class="jogadores">
+
+      <div>
+        <label for="jogador1">Jogador 1 </label>
+        <input type="text" name="jogador" id="jogador1" >
+        <span>X</span>
+      </div>
+      <div>
+        <label for="jogador2">Jogador 2 </label>
+        <input type="text" name="jogador" id="jogador2">
+        <span>O</span>
+      </div>
+    </div>
+    <table id="table">
+      <tr>
+        <td>
+          <input type="text" name="valueXO" maxlength="1" class="char" id="0" >
+        </td>
+        <td>
+          <input type="text" name="valueXO" maxlength="1" class="char" id="1">
+        </td>
+        <td>
+          <input type="text" name="valueXO" maxlength="1" class="char" id="2">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="text" name="valueXO" maxlength="1" class="char" id="value4">
+        </td>
+        <td>
+          <input type="text" name="valueXO" maxlength="1" class="char" id="value5">
+        </td>
+        <td>
+          <input type="text" name="valueXO" maxlength="1" class="char" id="value6">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="text" name="valueXO" maxlength="1" class="char" id="value7">
+        </td>
+        <td>
+          <input type="text" name="valueXO" maxlength="1" class="char" id="value8">
+        </td>
+        <td>
+          <input type="text" name="valueXO" maxlength="1" class="char" id="value9">
+        </td>
+      </tr>
+    </table>
+    <button id="reiniciar">RECOMEÇAR</button>
+  </main>
+  
+</body>
+</html>
